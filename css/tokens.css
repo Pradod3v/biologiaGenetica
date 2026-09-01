@@ -1,0 +1,86 @@
+/* =========================================================
+   TOKENS — Plataforma de Genética
+   Conceito: caderno de laboratório contemporâneo.
+   Papel + tinta de caneta técnica, com o verde de cultura
+   de células como cor de identidade e âmbar como destaque
+   de atenção/alerta. Notação genética (Aa, AaBb, Xᴬ) sempre
+   em monoespaçada, como em um caderno de anotações de bancada.
+   ========================================================= */
+
+:root{
+  /* ---------- paleta base (modo claro) ---------- */
+  --paper:        #F1F0EA;   /* fundo principal, papel de caderno */
+  --paper-raised: #FFFFFF;   /* cartões / superfícies elevadas */
+  --ink:          #1B231F;   /* texto principal */
+  --ink-soft:     #4A564E;   /* texto secundário */
+  --line:         #D8D6C8;   /* bordas, hairlines */
+  --line-strong:  #B7B49F;
+
+  --moss:         #2F6F5A;   /* cor de identidade — verde cultura */
+  --moss-dark:    #204B3D;
+  --moss-tint:    #E1EEE6;
+
+  --amber:        #C1873A;   /* destaque / atenção / streak */
+  --amber-tint:   #F7E9D4;
+
+  --clay:         #B15239;   /* erro / recessivo / alerta */
+  --clay-tint:    #F5DDD5;
+
+  --teal:         #2C6E85;   /* informação secundária / links */
+
+  --focus-ring:   #1B7A5A;
+
+  /* ---------- tipografia ---------- */
+  --font-display: "Source Serif 4", "Iowan Old Style", Georgia, serif;
+  --font-body:    "Inter", -apple-system, "Segoe UI", sans-serif;
+  --font-mono:    "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+
+  /* ---------- espaçamento ---------- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+
+  --shadow-card: 0 1px 2px rgba(27,35,31,0.06), 0 4px 14px rgba(27,35,31,0.06);
+  --shadow-pop:  0 8px 28px rgba(27,35,31,0.16);
+
+  --sidebar-w: 248px;
+
+  color-scheme: light;
+}
+
+html[data-theme="dark"]{
+  --paper:        #101715;
+  --paper-raised: #172420;
+  --ink:          #E9EFE9;
+  --ink-soft:     #A9B7AC;
+  --line:         #2A3833;
+  --line-strong:  #3C4C45;
+
+  --moss:         #4FAE8A;
+  --moss-dark:    #7ED2B0;
+  --moss-tint:    #163025;
+
+  --amber:        #E0A85C;
+  --amber-tint:   #2E2617;
+
+  --clay:         #E08669;
+  --clay-tint:    #33201B;
+
+  --teal:         #6FB6CE;
+
+  --focus-ring:   #7ED2B0;
+
+  --shadow-card: 0 1px 2px rgba(0,0,0,0.3), 0 6px 20px rgba(0,0,0,0.35);
+  --shadow-pop:  0 10px 34px rgba(0,0,0,0.5);
+
+  color-scheme: dark;
+}
